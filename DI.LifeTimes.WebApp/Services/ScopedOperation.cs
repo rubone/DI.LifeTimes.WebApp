@@ -10,7 +10,7 @@ namespace DI.LifeTimes.WebApp.Services
     {
     }
 
-    public class ScopedOperation
+    public class ScopedOperation : IScopedOperation
     {
         public Guid Id { get; }
         public ScopedOperation()
