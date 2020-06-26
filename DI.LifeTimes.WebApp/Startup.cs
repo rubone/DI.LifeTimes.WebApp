@@ -28,6 +28,7 @@ namespace DI.LifeTimes.WebApp
             services.AddControllersWithViews();
 
             // Inject
+            // Test
             services.AddSingleton<ISingletonOperation, SingleOperation>();
             services.AddTransient<ITransientOperation, TransientOperation>();
             services.AddScoped<IScopedOperation, ScopedOperation>();
